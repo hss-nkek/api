@@ -1,6 +1,131 @@
 {
-    "name": "한상수",
-    "family": "봄둥이",
-    "age": 33,
-    "weight": 88
+  "details": [
+    {
+      "no": "01",
+      "time": "13:00 ~ 13:40",
+      "title": "Android Studio 설정 다시 한번 볼까요?",
+      "who": [
+        {
+          "name": "노현석",
+          "company": "네이버",
+          "photo": "https://techcon.naver.com/img/img_android_speaker01.png",
+          "profile": "Android와 Android Studio 를 좋아하는 개발자입니다. Android Studio Canary 버전을 직접 체험하는 것을 즐깁니다."
+        }
+      ],
+      "overview": "Android Studio 3.6 버전까지 오면서 놓치고 있던 Studio 설정들을 공유합니다. 라이브로 설정을 조작하면서 정보를 진행하는 시간을 가집니다.",
+      "contents": "1. 있었지만 몰랐던 설정 정보\n2. 조금 더 생산성 올리는 방법",
+      "url": "https://askers.io/channels/techcon1907_11/posts"
+    },
+    {
+      "no": "02",
+      "time": "14:00 ~ 14:40",
+      "title": "예제에서는 알려주지 않는 Model 이야기",
+      "who": [
+        {
+          "name": "김범준",
+          "company": "레이니스트",
+          "photo": "https://techcon.naver.com/img/img_android_speaker02.png",
+          "profile": "레이니스트에서 뱅크샐러드라는 서비스의 안드로이드를 맡아 개발하고 있습니다.\n보다 쉽게 읽히면서 확장이 용이한 구조의 코드를 지향합니다."
+        }
+      ],
+      "overview": "아키텍쳐, 패턴에서 모델은 빠지지 않고 등장합니다. 쉬워 보이지만 또 어렵기도 한 모델에 관하여 예제에는 잘 보이지 않는 내용들을 공유하려 합니다.",
+      "contents": "",
+      "url": "https://askers.io/channels/techcon1907_12/posts"
+    },
+    {
+      "no": "03",
+      "time": "14:50 ~ 15:30",
+      "title": "안드로이드 개발자 로드맵",
+      "who": [
+        {
+          "name": "안중환",
+          "company": "네이버 웹툰",
+          "photo": "https://techcon.naver.com/img/img_android_speaker03.png",
+          "profile": "네이버 오디오클립부터 현재는 네이버 웹툰 시리즈온 개발자로 스트리밍 서비스를 개발해왔습니다. 좋은 코드를 생산하는 방법에 관심이 많습니다."
+        }
+      ],
+      "overview": "네이버 안드로이드 개발자 3년차가 되는 과정에서 졸업생은 무엇을 준비하고, 어떤 걸 공부해야 하는지 키워드와 노하우를 공유합니다.",
+      "contents": "",
+      "url": "https://askers.io/channels/techcon1907_13/posts"
+    },
+    {
+      "no": "04",
+      "time": "15:50 ~ 16:30",
+      "title": "쪼개지고 나누어지는 안드로이드",
+      "who": [
+        {
+          "name": "양찬석",
+          "company": "Google",
+          "photo": "https://techcon.naver.com/img/img_android_speaker04.jpg",
+          "profile": ""
+        }
+      ],
+      "overview": "다양성은 안드로이드 생태계의 핵심 가치입니다. 안드로이드 디바이스 종류는 정말 다양하며, 5G등 새로운 모바일 기술은 오픈된 안드로이드 생태계를 기반으로 빠르게 발전할 수 있었습니다. 하지만, 안드로이드 다양성은 앱 개발자에게는 영원한 숙제로 남겨졌습니다. 구글은 안드로이드 생태계의 다양성을 유지하면서도 앱 개발자의 수고를 줄이고 사용자가 최적의 경험을 할 수 있도록 많은 노력을 기울이고있습니다. 다양성과 호환성이라는 두 마리 토끼를 모두 잡기 위해 구글이 힘쓰고 있는 안드로이드 플랫폼 모듈화 및 앱 모듈화 프로젝트를 소개하고 앱 개발시 염두해둘 내용을 살펴봅니다.",
+      "contents": "",
+      "url": "https://askers.io/channels/techcon1907_14/posts"
+    },
+    {
+      "no": "05",
+      "time": "16:40 ~ 17:20",
+      "title": "무엇이든 물어 보세요. \nfeat. 모바일 개발, 기획, 디자인의 모든 것",
+      "who": [
+        {
+          "name": "신동민",
+          "company": "네이버 웹툰",
+          "photo": "https://techcon.naver.com/img/img_android_speaker05_1.png",
+          "profile": "서비스 기획과 디자인을 좋아하는 개발자. 스타트업 출신 네이버 개발자로서 오늘보다 더 재밌고 신선한 서비스를 만드는데 관심이 많다. 현재 네이버 웹툰에서 시리즈on 메인 개발을 담당하고 있다."
+        },
+        {
+          "name": "전우석",
+          "company": "네이버 웹툰",
+          "photo": "https://techcon.naver.com/img/img_android_speaker05_2.png",
+          "profile": "네이버 웹툰 서비스기획자. 시리즈/네이버 웹소설 UX 설계 및 서비스 기획 담당."
+        },
+        {
+          "name": "조중현",
+          "company": "네이버",
+          "photo": "https://techcon.naver.com/img/img_android_speaker05_3.png",
+          "profile": "네이버 UXDP를 통해 브랜드디자인스튜디오로 입사해 네이버 메인 디자인판, 파파고, 네이버지도를 거쳐 현재 네이버 V설계스튜디오에서 BX디자이너로 일하고 있다."
+        }
+      ],
+      "overview": "모바일 서비스에 대해 궁금한 모든 것을 현업 개발, 기획, 디자이너에게 물어보고 답하는 시간",
+      "contents": "",
+      "url": "https://askers.io/channels/techcon1907_15/posts"
+    },
+    {
+      "no": "06",
+      "time": "17:30 ~ 17:55",
+      "title": "예제로 배우는 안드로이드 카메라",
+      "who": [
+        {
+          "name": "옥수환",
+          "company": "네이버",
+          "photo": "https://techcon.naver.com/img/img_android_speaker06.png",
+          "profile": "핀테크, IoT, AR 분야에서 안드로이드 애플리케이션을 개발해왔으며, 현재는 네이버 밴드 앱을 개발하고 있습니다.\n찰스의 안드로이드 블로그를 통해 안드로이드 개발과 관련된 내용을 공유하고 있습니다."
+        }
+      ],
+      "overview": "단순한 사진촬영부터 사진편집, 바코드인식, 얼굴감지, 영상통화, AR 등 다양한 분야에서 카메라를 이용한 앱을 만들고 있습니다.\n\n구글의 Camera-Basic 예제를 통해 Camera2 API 구조와 관련 용어에 대해 알아보고, Preview, Image Processing, Capture 등 Use-case 기반으로 이야기 합니다.\n\n*이런 분이 들으시면 좋습니다. 카메라를 사용하는 앱을 만들고 싶은데 Camera를 쓸수는 없고, Camera2를 사용하자니 어려움이 있으신 분",
+      "contents": "",
+      "url": "https://askers.io/channels/techcon1907_16/posts"
+    },
+    {
+      "no": "07",
+      "time": "17:55 ~ 18:20",
+      "title": "20분만에 만들어보는 라이브 방송 앱",
+      "who": [
+        {
+          "name": "박지환",
+          "company": "네이버",
+          "photo": "https://techcon.naver.com/img/img_android_speaker07.png",
+          "profile": "게임과 개발을 좋아하는 두 아이의 아빠입니다. OOP와 FP, 그리고 동시성 프로그래밍에 관심이 많습니다. 클린 코드를 지향합니다."
+        }
+      ],
+      "overview": "크리에이터가 당당히 어린이들의 장래희망으로 등극한 시대. 유튜브, 트위치, 아프리카TV 등을 통해 시청하는 라이브 방송은 우리 삶의 일부가 되었습니다.\n안드로이드 플랫폼에서 '라이브 스트리밍' 앱을 내 손으로 직접 개발해보는 시간을 갖습니다. 이에 필요한 카메라, 미디어 코덱, 미디어 프로토콜에 대해 함께 살펴봅니다.",
+      "contents": "",
+      "url": "https://askers.io/channels/techcon1907_17/posts"
+    }
+  ],
+  "live_url": "https://tv.naver.com/l/29118",
+  "start_time": "12:30 ~ 13:00",
+  "end_time": "18:30"
 }

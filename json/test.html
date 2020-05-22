@@ -18,7 +18,20 @@
   Kakao.init('e503167306dfdc6986ac7b66ebbcb0ab')
   Kakao.Link.createCustomButton({
     container: '#create-kakao-link-btn',
-    templateId: 28344
+    templateId: 28344,
+    
+    buttons:
+    {
+      title: '웹으로 이동',
+      link: {
+        mobileWebUrl: 'https://developers.kakao.com',
+      },
+    }
+    
+    
+    
+    
+    
   })
 </script>
 

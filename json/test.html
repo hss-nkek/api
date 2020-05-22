@@ -8,36 +8,27 @@
 <script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
 </head>
 <body>
-<a id="kakao-link-btn" href="javascript:;">
-<img src="//developers.kakao.com/assets/img/about/logos/kakaolink/kakaolink_btn_medium.png"/>
+<a id="kakao-link-btn" href="javascript:sendLink()">
+  <img
+    src="//developers.kakao.com/assets/img/about/logos/kakaolink/kakaolink_btn_medium.png"
+  />
 </a>
-<script type='text/javascript'>
-  //<![CDATA[
-    Kakao.init('e503167306dfdc6986ac7b66ebbcb0ab');
-
-    Kakao.Link.createDefaultButton({
-      container: '#kakao-link-btn',
-      objectType: 'feed',
-      content: {
-        title: '대제목',
-        description: '소제목',
-        imageUrl: '이미지주소',
-        link: {
-          mobileWebUrl: '이미지클릭시 이동할 모바일용 링크주소',
-          webUrl: '이미지클릭시 이동할 PC용 링크주소'
-        }
+<script type="text/javascript">
+  // input your appkey
+  Kakao.init('e503167306dfdc6986ac7b66ebbcb0ab')
+  function sendLink() {
+    Kakao.Link.sendDefault({
+      objectType: 'text',
+      text:
+        '기본 템플릿으로 제공되는 텍스트 템플릿은 텍스트를 최대 200자까지 표시할 수 있습니다. 텍스트 템플릿은 텍스트 영역과 하나의 기본 버튼을 가집니다. 임의의 버튼을 설정할 수도 있습니다. 여러 장의 이미지, 프로필 정보 등 보다 확장된 형태의 카카오링크는 다른 템플릿을 이용해 보낼 수 있습니다.',
+      link: {
+        mobileWebUrl:
+          'https://developers.kakao.com/docs/js/kakaotalklink#텍스트-템플릿-보내기',
+        webUrl:
+          'https://developers.kakao.com/docs/js/kakaotalklink#텍스트-템플릿-보내기',
       },
-      buttons: [
-        {
-          title: '버튼 타이틀',
-          link: {
-            mobileWebUrl: '버튼클릭시 이동할 모바일용 링크주소',
-            webUrl: '버튼클릭시 이동할 PC용 링크주소'
-          }
-        }
-      ]
-    });
-  //]]>
+    })
+  }
 </script>
 </body>
 </html>
